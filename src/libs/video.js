@@ -15,7 +15,7 @@ const waitCameraData = (videoElement) => new Promise((res, rej) => {
 
 export async function getVideoStream (video) {
   const stream = await navigator.mediaDevices.getUserMedia({
-    video: { width: 720 },
+    video: { width: 720, facingMode: 'environment' },
     audio: false
   })
 

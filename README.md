@@ -1,3 +1,5 @@
-# Реализация AR через JSFeat.
+# AR image tracking on Web Browser
 
-В алгоритме задействованы ORB-Descriptors и Lucas-Canade алгоритм из библиотеки JSFeat.
+Powered by JSFeat
+
+The algorithm uses ORB-Descriptors and the Lucas-Canade algorithm from the JSFeat library
